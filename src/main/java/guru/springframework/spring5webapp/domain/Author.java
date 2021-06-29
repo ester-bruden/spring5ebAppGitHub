@@ -8,6 +8,7 @@ public class Author {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    // we need to give jpa an indentity value so that the entity can be persisted into a database
 
     private String firstName;
     private String lastName;
